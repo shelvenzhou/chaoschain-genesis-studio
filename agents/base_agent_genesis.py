@@ -247,6 +247,10 @@ class GenesisBaseAgent:
             return "Bob"
         elif "charlie" in self.agent_domain.lower():
             return "Charlie"
+        elif "validator" in self.agent_domain.lower():
+            return "validator"
+        elif "client" in self.agent_domain.lower():
+            return "client"
         else:
             return "Unknown"
     
