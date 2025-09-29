@@ -7,3 +7,6 @@
 [submodule "contracts/lib/openzeppelin-contracts-upgradeable"]
 	path = contracts/lib/openzeppelin-contracts-upgradeable
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
+[submodule "external/dcap-qvl"]
+	path = external/dcap-qvl
+	url = https://github.com/Phala-Network/dcap-qvl.git
